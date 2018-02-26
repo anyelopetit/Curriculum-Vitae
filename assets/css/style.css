@@ -326,6 +326,7 @@ input {
 .row {
     margin-left: -15px;
     margin-right: -15px;
+    width: 100%;
 }
 
 [class*="col-"] {
@@ -371,6 +372,24 @@ input {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%;
+}
+
+.avatar {
+  width: 100%;
+  max-width: 100%;
+  height: 400px;
+  background: url('../img/avatar-1.jpg') #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: .3s;
+}
+
+.avatar:hover{
+  background-image: url('../img/avatar-2.jpg');
+  background-position: -110px center;
+  /*background-size: contain;*/
+  transition: .3s;
 }
 
 .flex {
